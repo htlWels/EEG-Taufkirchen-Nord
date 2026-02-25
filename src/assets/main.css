@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* In deiner CSS Datei oder im <style> Block */
+.router-link-active li {
+  color: #2ecc71; /* Dein EEG-Grün */
+  border-bottom: 2px solid #2ecc71;
+  font-weight: bold;
+}
